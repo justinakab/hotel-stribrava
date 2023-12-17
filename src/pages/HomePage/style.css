@@ -1,13 +1,52 @@
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+.container__room-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container--left {
+  width: 100%;
+}
+
+.container--right {
+  width: 100%;
+}
+
+section {
+  padding: 30px 0;
+}
+
+a {
+  color: #e8e9f3;
+}
+
+.section__dark {
+  background-color: #131e2a;
+  color: #e8e9f3;
+}
+
+.section__light {
+  background-color: #e8e9f3;
+  color: #131e2a;
+}
+
+@media (min-width: 700px) {
+
+  .container__room-info {
+    flex-direction: row;
+  }
+
+  .container--left {
+    width: 50%;
+  }
+
+  .container--right {
+    width: 50%;
+
+  }
 }

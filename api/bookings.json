@@ -1,15 +1,54 @@
 [
   {
-    "id": 0,
-    "dateFrom": "2023-11-18",
-    "dateTo": "2023-11-20",
+    "id": 2,
+    "dateFrom": "2023-12-26",
+    "dateTo": "2023-12-30",
+    "peopleCount": 2,
+    "meals": "breakfast",
+    "pet": true,
+    "child": false,
+    "handicap": false,
+    "email": "",
+    "phone": "",
+    "totalPrice": 10200
+  },
+  {
+    "id": 3,
+    "dateFrom": "2023-12-26",
+    "dateTo": "2023-12-30",
+    "peopleCount": 2,
+    "meals": "breakfast",
+    "pet": true,
+    "child": false,
+    "handicap": false,
+    "email": "",
+    "phone": "",
+    "totalPrice": 10200
+  },
+  {
+    "id": 4,
+    "dateFrom": "2023-12-26",
+    "dateTo": "2023-12-30",
     "peopleCount": 2,
     "meals": "full",
-    "pet": false,
-    "child": true,
+    "pet": true,
+    "child": false,
     "handicap": true,
-    "email": "hokusnik.pokusnik@gamil.co0m",
-    "phone": "123 456 789",
-    "totalPrice": 6400
+    "email": "justina.kabel@gmail.com",
+    "phone": "+42039758822",
+    "totalPrice": 10900
+  },
+  {
+    "id": 5,
+    "dateFrom": "2023-12-22",
+    "dateTo": "2023-12-23",
+    "peopleCount": 2,
+    "meals": "full",
+    "pet": true,
+    "child": false,
+    "handicap": false,
+    "email": "justina.kabel@gmail.com",
+    "phone": "+42039758822",
+    "totalPrice": 19000
   }
 ]

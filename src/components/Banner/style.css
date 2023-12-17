@@ -1,0 +1,27 @@
+.banner__background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/hotel.jpg);
+}
+
+.banner__stripe {
+
+  background-color: rgba(0, 0, 0, 0.5);
+  ;
+}
+
+.banner__info {
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.banner__h1 {
+  font-family: 'Agbalumo', cursive;
+  margin: 0 20px 0 0;
+}
+
+.banner__p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}

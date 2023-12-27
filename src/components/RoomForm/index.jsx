@@ -2,6 +2,7 @@ import './style.css';
 import dayjs from 'dayjs';
 import { useState } from 'react';
 import './style.css';
+import { motion } from 'framer-motion';
 
 export const RoomForm = ({ activeRoom }) => {
   const [dateFrom, setDateFrom] = useState('');
@@ -66,7 +67,7 @@ export const RoomForm = ({ activeRoom }) => {
   };
   return (
     <div className="room-form">
-      <h1>Formulář</h1>
+      <h1 className="room-form__h1">Formulář</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-fields">
           <label htmlFor="date-from" className="field-label">
@@ -174,7 +175,13 @@ export const RoomForm = ({ activeRoom }) => {
           />
         </div>
         <div className="price">Celková cena za pobyt: {totalPrice} Kč</div>
-        <button className="wide">Odeslat poptávku</button>
+        <motion.button
+          className="wide"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          Odeslat poptávku
+        </motion.button>
       </form>
     </div>
   );

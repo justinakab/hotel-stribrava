@@ -17,6 +17,14 @@
 
 }
 
+iframe {
+  border: none;
+  width: 35vw;
+  height: 40vh;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
 
 @media (min-width: 700px) {
   .container__contact {

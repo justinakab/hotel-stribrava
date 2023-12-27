@@ -50,5 +50,31 @@
     "email": "justina.kabel@gmail.com",
     "phone": "+42039758822",
     "totalPrice": 19000
+  },
+  {
+    "id": 6,
+    "dateFrom": "",
+    "dateTo": "",
+    "peopleCount": 2,
+    "meals": "half",
+    "pet": false,
+    "child": false,
+    "handicap": false,
+    "email": "",
+    "phone": "",
+    "totalPrice": 600
+  },
+  {
+    "id": 7,
+    "dateFrom": "",
+    "dateTo": "",
+    "peopleCount": 2,
+    "meals": "half",
+    "pet": false,
+    "child": false,
+    "handicap": false,
+    "email": "",
+    "phone": "",
+    "totalPrice": 600
   }
 ]

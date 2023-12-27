@@ -9,24 +9,32 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .room__card {
   flex-basis: 19%;
-  padding: 20px;
   color: #aaa;
+  border: 1px solid #25384d;
+
+}
+
+.card__info {
+  padding: 20px;
 }
 
 .room__card:hover {
   color: #e8e9f3;
-  border: 1px solid #e8e9f3;
-  border-radius: 30px;
+  border: 2px solid #e8e9f3;
+  background-color: #25384d;
+
 }
 
 .card__img {
   width: 100%;
 }
+
+
 
 @media (min-width: 700px) {
   .room-list__row {

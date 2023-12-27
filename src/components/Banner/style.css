@@ -4,16 +4,70 @@
   background-image: url(img/hotel.jpg);
 }
 
+.small-stripe {
+  height: 5vh;
+  width: 100vw;
+  background-color: #131e2a;
+}
+
 .banner__stripe {
 
   background-color: rgba(0, 0, 0, 0.5);
-  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
 }
 
-.banner__info {
-  padding: 20px;
-  color: whitesmoke;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
+
+nav a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a::before {
+
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+
+}
+
+nav a:hover::before {
+  transform: scaleX(1);
+}
+
+
+.logo {
+  width: 20%;
+  margin: 0 7em;
+}
+
+.logo__img {
+  width: 100%;
+  height: 10vh;
+}
+
+
 
 .banner__h1 {
   font-family: 'Agbalumo', cursive;

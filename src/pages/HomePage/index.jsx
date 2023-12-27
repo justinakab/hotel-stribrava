@@ -26,10 +26,10 @@ export const HomePage = () => {
   return (
     <div>
       <Banner />
-      <section className="section__dark">
+      <section id="rooms" className="section__dark">
         <RoomList setActiveId={setActiveId} rooms={rooms}></RoomList>
       </section>
-      <section className="section__light">
+      <section id="booking" className="section__light">
         <div className="container container__room-info">
           {rooms === null ? (
             <p>Načítání...</p>
@@ -47,7 +47,7 @@ export const HomePage = () => {
           )}
         </div>
       </section>
-      <section className="section__dark">
+      <section id="contact" className="section__dark">
         <Contact></Contact>
       </section>
     </div>

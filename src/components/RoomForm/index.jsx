@@ -176,7 +176,7 @@ export const RoomForm = ({ activeRoom }) => {
         </div>
         <div className="price">Celková cena za pobyt: {totalPrice} Kč</div>
         <motion.button
-          className="wide"
+          className="wide form__btn"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.95 }}
         >

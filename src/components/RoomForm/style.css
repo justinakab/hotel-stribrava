@@ -42,7 +42,7 @@ input[type="checkbox"] {
 
 }
 
-button {
+.form__btn {
   font-size: 1rem;
   background-color: #e76836;
   color: white;
@@ -51,12 +51,12 @@ button {
   border-radius: 0.5rem;
 }
 
-button:hover {
+.form__btn:hover {
   background-color: #eC845b;
   cursor: pointer;
 }
 
-button.wide {
+.form__btn.wide {
   display: block;
   width: 100%;
   padding: 1rem;

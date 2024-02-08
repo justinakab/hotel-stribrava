@@ -4,7 +4,13 @@ export const DesktopMenu = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const offset = 195; // Adjust this value as needed
+      const offsetTop = section.offsetTop - offset;
+
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth',
+      });
     }
   };
   return (

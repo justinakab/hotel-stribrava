@@ -8,21 +8,18 @@
 
 .contact__map {
   width: 100%;
-}
-
-.contact__map--img {
-  width: 100%;
-  border-radius: 30px;
-  margin-top: 20px;
-
+  display: flex;
+  justify-content: center;
 }
 
 iframe {
   border: none;
-  width: 35vw;
+  width: 85vw;
   height: 40vh;
   border-radius: 30px;
-  margin-right: 20px;
+  margin: 20px 0;
+
+
 }
 
 
@@ -33,9 +30,11 @@ iframe {
     padding: 0;
   }
 
-  .contact__map {
-    width: 400px;
-    padding-right: 30px;
+  iframe {
+    width: 35vw;
+    height: 40vh;
+    margin: 0 20px 0 0;
+
   }
 
 }

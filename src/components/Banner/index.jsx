@@ -1,5 +1,5 @@
 import { DesktopMenu } from '../DesktopMenu';
-import { HamburgerIcon, HamburgerMenu } from '../HamburgerMenu';
+import { HamburgerIcon } from '../HamburgerMenu';
 import './style.css';
 
 export const Banner = () => {

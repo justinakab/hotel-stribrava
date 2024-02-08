@@ -46,11 +46,7 @@
   transform: rotate(-45deg);
 }
 
-.hamburger-menu__container {
-  width: 200px;
-  height: 500px;
-  position: fixed;
-}
+
 
 .hamburger-nav {
   color: #e8e9f3;
@@ -67,6 +63,7 @@
   background-color: #131e2a;
   padding-bottom: 50px;
 }
+
 
 
 .hamburger-nav a {

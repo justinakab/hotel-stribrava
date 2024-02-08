@@ -23,26 +23,9 @@ export const HamburgerIcon = () => {
         <nav className="hamburger-nav">
           <a href="#about">O nás</a>
           <a href="#rooms">Katalog pokojů</a>
-          <a href="#rooms">Objednat ubytování</a>
+          <a href="#order">Objednat ubytování</a>
           <a href="#contact">Kontakt</a>
         </nav>
-      ) : null}
-    </>
-  );
-};
-
-export const HamburgerMenu = ({ isOpen }) => {
-  return (
-    <>
-      {isOpen ? (
-        <div className="hamburger-menu__container">
-          <nav className="hamburger-nav">
-            <a href="#about">O nás</a>
-            <a href="#rooms">Katalog pokojů</a>
-            <a href="#rooms">Objednat ubytování</a>
-            <a href="#contact">Kontakt</a>
-          </nav>
-        </div>
       ) : null}
     </>
   );
